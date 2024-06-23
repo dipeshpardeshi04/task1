@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './up.css'
-import IconGoogleColor from '../icons/IconGoogleColor';
-import IconFacebookColor from '../icons/IconFacebookColor';
+import IconGoogleColor from './Gcolor';
+import IconFacebookColor from './fcolor';
 
 function Joinin() {
   const [show, setShow] = useState(false);

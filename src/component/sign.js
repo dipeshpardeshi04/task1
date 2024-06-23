@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './up.css'
-import IconGoogleColor from '../icons/IconGoogleColor';
-import IconFacebookColor from '../icons/IconFacebookColor';
+import IconGoogleColor from './Gcolor';
+import IconFacebookColor from './fcolor';
 
 function Signin() {
   const [show, setShow] = useState(false);
@@ -30,7 +30,7 @@ function Signin() {
           </div>
           <a href='#' style={{textDecoration: "none", color: "black"}}><small><i className="bi bi-lock-fill"></i> Forgot password?</small></a>
         </div>
-        <button type="submit" className="btn btn-primary w-100">Continue</button>
+        <button type="submit" className="btn btn1 btn-primary w-100">Continue</button>
       </form>
     </div>
   )

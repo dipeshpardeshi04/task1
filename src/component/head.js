@@ -1,10 +1,10 @@
-import IconBell from '../icons/IconBell'
-import IconBookmark from '../icons/IconBookmark'
-import IconCart from '../icons/IconCart'
-import IconExplore from '../icons/IconExplore'
-import IconSearch from '../icons/IconSearch'
-import IconHobbies from '../icons/IconHobbies'
-import './header.style.css'
+import IconBell from './bellicon'
+import IconBookmark from './iconbo'
+import IconCart from './cart'
+import IconExplore from './iconEx'
+import IconSearch from './searchi'
+import IconHobbies from './hobiicon'
+import './head.css'
 
 function Head() {
     return (
@@ -16,7 +16,7 @@ function Head() {
                     <div className="form-group form-group-md d-none d-lg-block w-100">
                         <div className="input-group">
                             <input type="text" className="form-control" placeholder="Search here..." aria-label="Recipient's username" aria-describedby="button-addon2" />
-                            <button className="btn" type="button" id="invite"><i className="bi bi-search"></i></button>
+                            <button className="btn" type="button" id="invite"><i className="bi bi-search "></i></button>
                         </div>
                     </div>
                     <div className='d-flex align-items-center'>
@@ -70,7 +70,7 @@ function Head() {
                                 <a className="nav-link" aria-current="page" href="#"><IconCart /> <span className='d-inline d-md-none'>Cart</span></a>
                             </li>
                             <li className="nav-item">
-                                <button className="btn btn-outline sign-in-btn">Sign In</button>
+                                <button id='btnc' className="btn btn-outline sign-in-btn">Sign In</button>
                             </li>
                         </ul>
                     </div>

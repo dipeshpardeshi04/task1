@@ -1,11 +1,11 @@
-import IconFacebook from '../icons/IconFacebook'
-import IconGooglePlus from '../icons/IconGooglePlus'
-import IconInstagram from '/icons/IconInstagram'
-import IconMessage from '../icons/IconMessage'
-import IconPintrest from '../icons/IconPintrest'
-import IconTelegram from '../icons/IconTelegram'
-import IconTwitter from '../icons/IconTwitter'
-import IconYouTube from '../icons/IconYouTube'
+import IconFacebook from './iconf'
+import IconGooglePlus from './Gplus'
+import IconInstagram from './instai'
+import IconMessage from './messicon'
+import IconPintrest from './pinicon'
+import IconTelegram from './telei'
+import IconTwitter from './twitter'
+import IconYouTube from './yti'
 import './foot.css'
 
 function Foot() {
@@ -23,23 +23,24 @@ function Foot() {
                     </ul>
                 </div>
                 <div className="link-category ">
-                    <h6 className='pb-2'>Hobbycue</h6>
+                    <h6 className='pb-2'>How do i</h6>
                     <ul className='p-0'>
-                        <a href="#"><li>About Us</li></a>
-                        <a href="#"><li>Our Services</li></a>
-                        <a href="#"><li>Work with Us</li></a>
-                        <a href="#"><li>FAQ</li></a>
-                        <a href="#"><li>Contact Us</li></a>
+                        <a href="#"><li>Sign Us</li></a>
+                        <a href="#"><li>Add a Listing</li></a>
+                        <a href="#"><li>Claim Listing</li></a>
+                        <a href="#"><li>Post a Query</li></a>
+                        <a href="#"><li>Add a Blog Post</li></a>
+                        <a href="#"><li>Other Queries</li></a>
                     </ul>
                 </div>
                 <div className="link-category">
                     <h6 className='pb-2'>Quick Links</h6>
                     <ul className='p-0'>
-                        <a href="#"><li>About Us</li></a>
-                        <a href="#"><li>Our Services</li></a>
-                        <a href="#"><li>Work with Us</li></a>
+                        <a href="#"><li>Listings</li></a>
+                        <a href="#"><li>Blog Posts</li></a>
+                        <a href="#"><li>Shop / Store</li></a>
                         <a href="#"><li>FAQ</li></a>
-                        <a href="#"><li>Contact Us</li></a>
+                        <a href="#"><li>Community</li></a>
                     </ul>
                 </div>
                 <div className="link-category">

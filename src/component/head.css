@@ -5,6 +5,12 @@
 .navbar-toggler {
     border: none;
 }
+#invite{
+    background-color: #8064A2;
+}
+#btnc{
+    border-color: #8064A2;
+}
 .navbar-toggler:focus {
     text-decoration: none;
     outline: 0;

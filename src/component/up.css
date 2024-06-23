@@ -21,7 +21,12 @@
     left: 50%;
     white-space: nowrap;
 }
-
+.btn{
+    border-color: #8064A2;
+}
+.btn1{
+    background-color: #8064A2;
+}
 @media (max-width: 450px) {
     .form{
         width: 100%;
