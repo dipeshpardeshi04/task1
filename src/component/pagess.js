@@ -1,9 +1,10 @@
-import PageCard from '../pagecards.js'
-import IconPeople from './peoplei'
-import IconPlace from './placei'
-import IconProduct from './producti'
-import IconProgram from './programi'
-import './pagess.css'
+// import React from 'react';
+import PageCard from '../pagecards.js';
+import IconPeople from './peoplei';
+import IconPlace from './placei';
+import IconProduct from './producti';
+import IconProgram from './programi';
+import './pagess.css';
 
 const pagesData = [
     {
@@ -34,19 +35,25 @@ const pagesData = [
         theme: '#0096C8',
         icon: <IconProgram />
     }
-]
+];
+
 function Pages() {
-  return (
-    <section className='pages d-flex'>
-        {
-            pagesData.map(( pro, idx ) => {
-                return (
-                    <PageCard title={pro.title} desc={pro.desc} buttonText={pro.buttonText} theme={pro.theme} icon={pro.icon} key={idx}/>
-                )
-            })
-        }
-    </section>
-  )
+    return (
+        <section className='pages d-flex'>
+            {
+                pagesData.map(( { title, desc, buttonText, theme, icon }, idx ) => (
+                    <PageCard
+                        key={idx}
+                        title={title}
+                        desc={desc}
+                        buttonText={buttonText}
+                        theme={theme}
+                        icon={icon}
+                    />
+                ))
+            }
+        </section>
+    );
 }
 
-export default Pages
+export default Pages;
